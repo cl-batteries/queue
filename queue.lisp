@@ -17,7 +17,7 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/queue
+(defpackage :boost-queue
   (:use :cl)
   (:export
    #:make-queue
@@ -27,7 +27,7 @@
    #:queue-pop
    #:queue-list))
 
-(in-package :cl-batteries/queue)
+(in-package :boost-queue)
 
 ;;; ----------------------------------------------------
 
